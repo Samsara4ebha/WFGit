@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             btnAceptar = new Button();
+            btnSegundo = new Button();
             SuspendLayout();
             // 
             // btnAceptar
@@ -40,11 +41,21 @@
             btnAceptar.Text = "Aceptar";
             btnAceptar.UseVisualStyleBackColor = true;
             // 
+            // btnSegundo
+            // 
+            btnSegundo.Location = new Point(874, 186);
+            btnSegundo.Name = "btnSegundo";
+            btnSegundo.Size = new Size(137, 68);
+            btnSegundo.TabIndex = 1;
+            btnSegundo.Text = "Segundo";
+            btnSegundo.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1265, 654);
+            Controls.Add(btnSegundo);
             Controls.Add(btnAceptar);
             Name = "Form1";
             Text = "Titulo de Form Actualizado";
@@ -54,5 +65,6 @@
         #endregion
 
         private Button btnAceptar;
+        private Button btnSegundo;
     }
 }
